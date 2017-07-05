@@ -1,0 +1,231 @@
+<school name="USC">
+	<department>
+		<longName>Computer Science</longName>
+		<prefix>CSCI</prefix>
+		<courses>
+			<course>
+				<number>104</number>
+				<term>Summer</term>
+				<year>2017</year>
+				<staffMembers>
+					<staffMember type="instructor" id="1">
+						<fname>Mark</fname>
+						<lname>Redekopp</lname>
+						<email>redekopp@usc.edu</email>
+						<image>https://viterbi.usc.edu/directory/images/d7499ac4eb012f37d46058d2ab768b6d.jpg</image>
+						<phone>213-740-6006</phone>
+						<office>EEB 222</office>
+						<officeHours>
+							<officeHour>
+								<day>Monday</day>
+								<time>
+									<start>12:00p.m.</start>
+									<end>2:00p.m.</end>
+								</time>
+							</officeHour>
+							<officeHour>
+								<day>Wednesday</day>
+								<time>
+									<start>8:00a.m.</start>
+									<end>9:15a.m.</end>
+								</time>
+							</officeHour>
+						</officeHours>
+					</staffMember>			
+				</staffMembers>
+				<meetings>
+					<meeting type="lecture">
+						<section>30039R</section>
+						<room>KAP 163</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>Monday</day>
+								<time>
+									<start>9:30a.m.</start>
+									<end>11:45a.m.</end>
+								</time>
+							</meetingPeriod>
+							<meetingPeriod>
+								<day>Wednesday</day>
+								<time>
+									<start>9:30a.m.</start>
+									<end>11:45a.m.</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+					</meeting>
+					<meeting type="lab">
+						<section>30040R</section>
+						<room>SAL 127</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>Wednesday</day>
+								<time>
+									<start>2:00p.m.</start>
+									<end>3:50p.m.</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+					</meeting>
+					<meeting type="quiz">
+						<section>30041R</section>
+						<room>OFFICE</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>TBA</day>
+								<time>
+									<start>TBA</start>
+									<end>TBA</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+					</meeting>
+				</meetings>
+			</course>
+			<course>
+				<number>201</number>
+				<term>Summer</term>
+				<year>2017</year>
+				<staffMembers>
+					<staffMember type="instructor" id="1">
+						<name>
+							<fname>Jeffrey</fname>
+							<lname>Miller</lname>
+						</name>
+						<email>jeffrey.miller@usc.edu</email>
+						<image>http://www-scf.usc.edu/~csci201/images/jeffrey_miller.jpg</image>
+						<phone>213-740-7129</phone>
+						<office>SAL 342</office>
+						<officeHours>
+							<officeHour>
+								<day>Monday</day>
+								<time>
+									<start>6:30p.m.</start>
+									<end>7:30p.m.</end>
+								</time>
+							</officeHour>
+							<officeHour>
+								<day>Wednesday</day>
+								<time>
+									<start>7:00p.m.</start>
+									<end>8:00p.m.</end>
+								</time>
+							</officeHour>
+						</officeHours>
+					</staffMember>
+					<staffMember type="ta" id="2">
+						<name>
+							<fname>Reem</fname>
+							<lname>Alfayez</lname>
+						</name>
+						<email>alfayez@usc.edu</email>
+						<image>http://www-scf.usc.edu/~csci201/images/USC_seal.gif</image>
+						<office>SAL Open Lab</office>
+						<officeHours>
+							<officeHour>
+								<day>Monday</day>
+								<time>
+									<start>1:00p.m.</start>
+									<end>3:00p.m.</end>
+								</time>
+							</officeHour>
+						</officeHours>
+					</staffMember>
+					<staffMember type="cp" id="3">
+						<name>
+							<fname>Ninareh</fname>
+							<lname>Mehrabi</lname>
+						</name>
+						<email>ninareh@usc.edu</email>
+						<image>http://www-scf.usc.edu/~csci201/images/ninareh_mehrabi.jpg</image>
+						<office>SAL Open Lab</office>
+						<officeHours>
+							<officeHour>
+								<day>Tuesday</day>
+								<time>
+									<start>5:00p.m.</start>
+									<end>7:00p.m.</end>
+								</time>
+							</officeHour>
+						</officeHours>
+					</staffMember>
+					<staffMember type="grader" id="4">
+						<name>
+							<fname>Ruth</fname>
+							<lname>Libowsky</lname>
+						</name>
+						<email>libowsky@usc.edu</email>
+						<image>http://www-scf.usc.edu/~csci201/images/ruth_libowsky.jpg</image>
+						<officeHours>
+							<officeHour>
+								<day>By Appointment</day>
+							</officeHour>
+						</officeHours>
+					</staffMember>
+				</staffMembers>
+				<meetings>
+					<meeting type="lecture">
+						<section>30201R</section>
+						<room>KAP 163</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>Monday</day>
+								<time>
+									<start>3:30p.m.</start>
+									<end>6:30p.m.</end>
+								</time>
+							</meetingPeriod>
+							<meetingPeriod>
+								<day>Wednesday</day>
+								<time>
+									<start>3:30p.m.</start>
+									<end>6:30p.m.</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+						<assistants>
+							<assistant staffMemberID="3"/>
+						</assistants>
+					</meeting>
+					<meeting type="lab">
+						<section>30202R</section>
+						<room>KAP 163</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>Monday</day>
+								<time>
+									<start>7:00p.m.</start>
+									<end>9:00p.m.</end>
+								</time>
+							</meetingPeriod>
+							<meetingPeriod>
+								<day>Wednesday</day>
+								<time>
+									<start>7:00p.m.</start>
+									<end>9:00p.m.</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+						<assistants>
+							<assistant staffMemberID="2"/>
+							<assistant staffMemberID="3"/>
+						</assistants>
+					</meeting>
+					<meeting type="quiz">
+						<section>30203R</section>
+						<room>OFFICE</room>
+						<meetingPeriods>
+							<meetingPeriod>
+								<day>TBA</day>
+								<time>
+									<start>TBA</start>
+									<end>TBA</end>
+								</time>
+							</meetingPeriod>
+						</meetingPeriods>
+					</meeting>
+				</meetings>
+			</course>
+		</courses>
+	</department>
+</school>
